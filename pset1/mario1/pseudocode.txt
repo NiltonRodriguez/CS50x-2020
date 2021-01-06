@@ -1,0 +1,5 @@
+Ask the user the height of the pyramid.
+The height must be an integer between 1 to 8, if not ask again.
+Print a hash from 1 though height.
+    Align the hashes to the right.
+    Add one hash for each line printed.

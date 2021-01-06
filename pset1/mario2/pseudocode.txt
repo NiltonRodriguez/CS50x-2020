@@ -1,0 +1,8 @@
+Ask the use the height of the pyramid.
+The hegiht must be an integer from 1 to 8. If not, ask again.
+Print a hash from 1 to height.
+    Align the hashes to the right.
+    Add one hash for each line printed.
+Print the gap.
+Print a hash from 1 to height.
+    Add one ash to each line printed.
