@@ -4,7 +4,7 @@ from cs50 import SQL
 db = SQL("sqlite:///students.db")
 # Send an error message for the incorrect number of command-line arguments.
 if len(argv) != 2:
-    print("Usage: python import.py House")
+    print("Usage: python roster.py House")
     exit(1)
 # Query database for all students in house.
 students = db.execute("SELECT * FROM students WHERE house = ?", argv[1])
